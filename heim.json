@@ -1,0 +1,7 @@
+{
+	"providers": {
+		"openzwave" : {
+			"controller": "/dev/ttyUSB0"
+		}
+	}
+}

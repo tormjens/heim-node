@@ -1,6 +1,7 @@
 
 export default class Sensors {
-	constructor() {
+	constructor(heim) {
+		this.heim = heim;
 		this.sensors = [];
 	}
 	register(sensor) {
