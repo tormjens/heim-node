@@ -1,3 +1,7 @@
+/**
+ * Heim – Log implementation
+ * @author Tor Morten Jensen <tormorten@tormorten.no>
+ */
 var colors = require('colors');
 var moment = require('moment');
 module.exports = function(type, message) {

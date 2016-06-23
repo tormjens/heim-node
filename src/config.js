@@ -1,3 +1,8 @@
+/**
+ * Heim – Config implementation
+ * @author Tor Morten Jensen <tormorten@tormorten.no>
+ */
+
 // We'll use lodash here
 import _ from 'lodash'
 

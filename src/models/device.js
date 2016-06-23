@@ -1,3 +1,7 @@
+/**
+ * Heim – Device implementation
+ * @author Tor Morten Jensen <tormorten@tormorten.no>
+ */
 import _ from 'lodash'
 
 export default class Device {
@@ -12,9 +16,11 @@ export default class Device {
 			ready: false,
 			name: '',
 			id: '',
-			vendor: 'Heim'
+			value: 0,
+			vendor: 'Heim',
+			type: 'switch'
 		};
-		return _.merge(device, defaults);
+		return _.merge(defaults, device);
 	}
 	turnOn() {
 		if(this.supports('on')) {

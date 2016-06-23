@@ -1,3 +1,8 @@
+/**
+ * Heim – Providers (plugins) implementation
+ * @author Tor Morten Jensen <tormorten@tormorten.no>
+ */
+
 import _ from 'lodash'
 
 export default class Providers {
@@ -31,7 +36,7 @@ export default class Providers {
 		try {
 			require('heim-plugin-'+provider)(this.heim, options);
 		} catch(e) {
-			this.heim.Log('error', 'The plugin "'+provider+'"" is not installed.')
+			this.heim.Log('error', 'The plugin "'+provider+'" is not installed.')
 		}
 	}
 }

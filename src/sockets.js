@@ -1,3 +1,8 @@
+/**
+ * Heim – Sockets implementation
+ * @author Tor Morten Jensen <tormorten@tormorten.no>
+ */
+
 var socketio = require('socket.io');
 
 module.exports = function(server, Heim) {

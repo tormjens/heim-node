@@ -1,3 +1,7 @@
+/**
+ * Heim – Sensors implementation
+ * @author Tor Morten Jensen <tormorten@tormorten.no>
+ */
 
 export default class Sensors {
 	constructor(heim) {

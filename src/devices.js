@@ -1,3 +1,7 @@
+/**
+ * Heim – Devices implementation
+ * @author Tor Morten Jensen <tormorten@tormorten.no>
+ */
 import Device from './models/device'
 import _ from 'lodash'
 

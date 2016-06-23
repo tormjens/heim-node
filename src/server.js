@@ -1,3 +1,8 @@
+/**
+ * Heim – Server implementation
+ * @author Tor Morten Jensen <tormorten@tormorten.no>
+ */
+
 var express = require('express');
 var http = require('http');
 
